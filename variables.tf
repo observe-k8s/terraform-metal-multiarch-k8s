@@ -139,7 +139,7 @@ variable "control_plane_node_count" {
 
 variable "ccm_enabled" {
   type        = bool
-  description = "Whether or not the Equnix Metal CCM will be enabled"
+  description = "Whether or not the Equinix Metal CCM will be enabled"
   default     = false
 }
 

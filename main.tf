@@ -1,3 +1,7 @@
+provider "equinix" {
+  auth_token = var.auth_token
+}
+
 resource "equinix_metal_project" "new_project" {
   count = var.metal_create_project ? 1 : 0
   name  = var.equinix_metal_project_name
